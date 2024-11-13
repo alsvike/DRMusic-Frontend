@@ -1,0 +1,47 @@
+body {
+    background-color: #e17055; /* Light green background */
+    color: #333333;
+}
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #00cec9;
+    font-size: 200%;
+    font-weight: bold;	
+
+}
+#musicrecords {
+ background-color: #fab1a0;
+
+}
+.header-row {
+    background-color: #ffef99; /* Light yellow background */
+    padding: 15px 0;
+    border-radius: 8px;
+}
+.record-row {
+    background-color: #e8f5e9; /* Light green row background */
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.record-row:nth-child(even) {
+    background-color: #d7ffd9; /* Slightly darker green for alternating rows */
+}
+.col-md-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    background-color: transparent;
+    text-decoration: none;
+}
